@@ -1,0 +1,51 @@
+<div class='card'>
+    <div class='card-header'>
+     <!-- {{pageTitle}} -->
+     <h3>Job openings</h3>
+    </div>
+    
+    <div class='card-body'>            
+      <div class='table-responsive'>
+        <table class='table bg-pic'
+              *ngIf = 'products && products.length'>
+          <thead>
+            <tr>
+              <!-- <th>
+                <button class='btn btn-primary'
+                (click)='toggleImage()'>
+                  {{showImage? 'Hide' : 'Show'}} Image
+                </button>
+              </th> -->
+              <th>Company name</th>
+              <th>Position</th>
+              <th>Vacancy</th>
+              <th>Experience</th>
+              <th>Qualification</th>
+            </tr>
+           
+          </thead>
+          <tbody>  
+              <tr *ngFor='let product of products'>
+                  <!-- <td><img *ngIf='showImage'
+                    [src] = 'product.imageUrl' 
+                    [title] = 'product.productName'
+                    [style.width.px] = 'imageWidth' 
+                    [style.margin.px] = 'imageMargin'></td> -->
+                  <td>{{ product.companyName|uppercase }}</td>
+                  <td>{{ product.position }}</td>
+                  <td>{{ product.vacancy }}</td>
+                  <td>{{ product.experience}}</td>
+                  <td>{{ product.qualification }}</td>
+                  <td>
+                    <button class="btn btn-warning" style="cursor:pointer" *ngIf="_auth.loggedIn()" (click)="editProduct(product)" style="margin-left: 20px;"> Edit</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-danger" style="cursor:pointer" *ngIf="_auth.loggedIn()"(click)="deleteProduct(product)"> Delete</button>
+                  </td>
+                </tr>              
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

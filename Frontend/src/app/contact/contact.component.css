@@ -1,0 +1,195 @@
+#job-portal-icon-name{
+    padding: 0px;
+    font-size:25px;
+    text-decoration:none;
+    color:black;
+}
+#job-portal-caption{
+    
+    padding: 15px  ;
+    font-size: 25px;
+    color:white;
+  }
+.header-styles{
+   
+    width: 100%;
+    height: 50px;
+   /* // background-color:steelblue; */
+    background:linear-gradient(to right,steelblue,midnightblue);
+    padding: 20px;
+    margin: 0px;
+   }
+.menu-bar{
+    padding:30px;
+}
+.nav-bar{
+width: 100%;
+    height: 20px;
+    background-color:snow;
+    padding: 0px;
+   margin: 0px;
+}
+#body-style-1{
+background-image:url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8am9ifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+background-repeat:no-repeat;
+background-size:cover;
+
+}
+#body-style-2{
+background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-simple-jobs-to-sum-up-business-image_20826.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+body{
+margin:0px;
+}
+#text-link{
+padding: 20px;
+text-align:right;
+text-decoration:none;
+color:black;
+font-weight:normal;
+font-size: 20px;
+margin: 0px;
+
+
+}
+#text-link:hover{
+  font-weight:bold;
+  font-size:25px;
+  border-bottom-style: solid;
+  color:midnightblue;
+}
+#text-link-2:active{
+font-weight:bold;
+color:midnightblue;
+}
+.section-1{
+font-size:25px;
+text-align:center;
+color:midnightblue;
+margin-top: 30px;
+}
+.contacts-style{
+width:50%;
+height:100%;
+margin:50px auto;
+background-color:aliceblue;
+border-radius:50px;
+padding:40px;
+
+}
+#contacts{
+  padding:30px;
+  font-size:20px;
+  text-align: center;
+
+}
+#register-form{
+
+    border: 1px solid #ccc;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom:200px;       
+    border-radius:60px;
+    border: 4px solid midnightblue;
+
+}
+#help-form{
+
+    border: 1px solid #ccc;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom:200px;       
+    border-radius:60px;
+    border: 4px solid midnightblue;
+
+}
+#text-box-style{
+width: 130px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+/* background-image: url('searchicon.png'); */
+background-position: 10px 10px; 
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+transition: width 0.4s ease-in-out;
+}
+.input-wrapper{
+    padding-top: 30px;
+    padding-bottom:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+#input-box-style{
+  /* //font-size: 18px;
+    //padding-bottom: 12px;
+   // margin-bottom: 36px;
+   // border-top: 0px;
+   // border-right: 0px;
+   // border-left: 0px;
+   // border-bottom: 1px solid#ccc;
+   // width: 100%; */
+margin-bottom: 36px;
+width: 100%;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 10px;
+font-size: 16px;
+background-color: white;
+padding-top:12px;
+padding-bottom: 12px;
+padding-left:12px;
+transition: width 0.4s ease-in-out;
+}
+#input-box-style:focus{
+background-color:Aliceblue;
+border:none;
+}
+#submit-button{
+    background-color:  midnightblue;
+    margin-top: 30px; 
+    margin-bottom:20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    color:white;
+    border-radius: 30px;
+
+}
+#sub-heading{
+color:midnightblue;
+font-size:25px;
+margin-top:75px;
+
+}
+#sub-heading-2{
+color:midnightblue;
+text-align:center;
+font-size:18px;
+}
+#sub-heading-3{
+color:midnightblue;
+text-align:center;
+font-size:25px;
+}
+#about-para{
+color:black;
+font-size:25px;
+font-family:Papyrus ;
+font-weight: bold;
+}

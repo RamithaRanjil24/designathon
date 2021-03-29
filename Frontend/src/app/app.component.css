@@ -1,0 +1,22 @@
+
+#mark{
+    color: rgb(73, 25, 25);
+    font: 1em Cursive;
+}
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+h1{
+    color: darkblue;
+}
+#bg {
+    /* The image used */
+    /* background-image: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8am9ifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    color:midnightblue;
+    background-size: 100% ;  
+    background-size: cover; 
+  }
